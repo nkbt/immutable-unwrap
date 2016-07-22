@@ -1,0 +1,66 @@
+{
+  "name": "immutable-unwrap",
+  "version": "0.0.0",
+  "description": "Recursive unwrapper for nested ImmutableJS and mixed ImmutableJS/JavaScript data structures into a plain JavaScript objects for deep equality asserts in unit tests.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "lint": "eslint .",
+    "test": "babel-node ./test",
+    "cov": "babel-node node_modules/.bin/babel-istanbul cover --report text --report html --dir reports/coverage test",
+    "postversion": "git push --follow-tags",
+    "prepublish": "npm run build -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packetloop/node-clean-shrinkwrap.git"
+  },
+  "keywords": [
+    "packetloop",
+    "javascript",
+    "immutable",
+    "immutablejs",
+    "test",
+    "assert",
+    "deep equal",
+    "pretty print"
+  ],
+  "author": {
+    "name": "Nik Butenko",
+    "email": "nik@butenko.me",
+    "url": "https://twitter.com/@nkbtnk"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Nik Butenko",
+      "email": "nik@butenko.me",
+      "url": "https://twitter.com/nkbtnk"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/packetloop/node-clean-shrinkwrap/issues"
+  },
+  "homepage": "https://github.com/packetloop/node-clean-shrinkwrap",
+  "engines": {
+    "node": "6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.11.4",
+    "babel-istanbul": "^0.11.0",
+    "babel-preset-es2015": "6.9.0",
+    "codecov": "^1.0.1",
+    "eslint": "2.13.1",
+    "eslint-config-airbnb-base": "3.0.1 ",
+    "eslint-plugin-import": "1.11.1",
+    "immutable": "3.8.1",
+    "lodash": "^4.13.1",
+    "tap-xunit": "^1.4.0",
+    "tape": "4.6.0"
+  },
+  "peerDependencies": {
+    "lodash": "4",
+    "immutable": "3"
+  }
+}
