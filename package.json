@@ -1,6 +1,9 @@
 {
-  "name": "immutable-unwrap",
+  "name": "@packetloop/immutable-unwrap",
   "version": "0.0.0",
+  "publishConfig": {
+    "registry": "https://api.bintray.com/npm/arbornetworks/packetloop"
+  },
   "description": "Recursive unwrapper for nested ImmutableJS and mixed ImmutableJS/JavaScript data structures into a plain JavaScript objects for deep equality asserts in unit tests.",
   "main": "lib/index.js",
   "scripts": {
