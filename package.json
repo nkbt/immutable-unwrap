@@ -1,6 +1,6 @@
 {
   "name": "@packetloop/immutable-unwrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Recursive unwrapper for nested ImmutableJS and mixed ImmutableJS/JavaScript data structures into a plain JavaScript objects for deep equality asserts in unit tests.",
   "main": "lib/index.js",
   "scripts": {
