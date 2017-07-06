@@ -24,6 +24,7 @@
     "arrow-parens": [2, "as-needed"],
     "no-unused-vars": [
       2, {"varsIgnorePattern": "^_", "argsIgnorePattern": "^_"}
-    ]
+    ],
+    "import/prefer-default-export": 0
   }
 }
