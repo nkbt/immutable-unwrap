@@ -8,7 +8,6 @@
     "lint": "eslint .",
     "test": "babel-node ./test",
     "cov": "babel-node node_modules/.bin/babel-istanbul cover --report text --report html --dir reports/coverage test",
-    "postversion": "git push --follow-tags",
     "prepublish": "npm run build -s"
   },
   "repository": {
